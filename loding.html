@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .line{
+        width: 10px;
+        height: 10px;
+        background-color: rgb(65, 42, 165);
+        margin-left: 10px;
+        animation: test 1000ms infinite;
+    }
+    @keyframes test{
+       30%{
+        transform: scaleY(4);
+       }
+       60%{
+        transform: scaleY(1);
+       } 
+    } 
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+    }
+    .container{
+        display: flex;
+
+    }
+    </style>
+</head>
+<body>
+    <h1>RAMA</h1>
+    <div class="container">
+        
+        <div class="line" style="animation-delay: 100ms ;"></div>
+        <div class="line" style="animation-delay: 200ms ;"></div>
+        <div class="line" style="animation-delay: 300ms ;"></div>
+        <div class="line" style="animation-delay: 400ms ;"></div>
+        <div class="line" style="animation-delay: 500ms ;"></div>
+        <div class="line" style="animation-delay: 600ms ;"></div>
+        <h4>KRISHNA</h4>
+        
+    
+    </div>
+</body>
+</html>
